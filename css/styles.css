@@ -110,6 +110,25 @@ nav {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover .logo-icon {
+    transform: rotate(10deg);
+}
+
+.logo span {
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--primary-color);
